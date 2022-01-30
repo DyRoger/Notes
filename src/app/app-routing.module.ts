@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { JavaComponent } from './mymodules/java/java.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'java', component: JavaComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

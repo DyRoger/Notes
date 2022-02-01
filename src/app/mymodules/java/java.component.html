@@ -1,1 +1,476 @@
-<p>java works!</p>
+<div class="container">
+
+
+    <table class="table">
+
+        <td class="h1 text-center">Java Notes</td>
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">What is Object in Java?</p>
+            </li>
+            <p>An object is an element (or instance) of a class; objects have the behaviors of their class<br>
+
+                Objects are the basic runtime entities in object oriented system. They may represent a person, place,
+                BankAccount.
+
+            </p>
+            <strong>Example:</strong><br>
+            <p>If a customer & account are two objects in a program, then the customer object may send a message to the
+                account
+                object requesting for bank balance. Each objects contains data & code to manipulate the data.
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">What is Class in Java?</p>
+            </li>
+            <p>A class is a collections of objects of similar types. <br>OR<br>
+                A blueprint for objects. <br>
+                Which describe the properties and behaviour of an object.
+
+            </p>
+
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Explain OOPS :</p>
+            </li>
+            <p>Object-oriented programming (OOPs) is a methodology
+                that simplifies software development and maintenance by providing some rules.
+                Java is an object-oriented programming language. Everything in Java is an object.<br>
+                OOPS allows us to decompose a problem into a number of entities called objects & then build data
+                and functions around these entities.
+
+            </p>
+            <strong class="bg-dark text-white">So what is done in Procedural oriented approach?:</strong><br>
+            <p> In POP approaches the problem is viewed as a sequence of things to be done. Such as reading, calculating
+                & printing.
+                A no of fuctions are written to be accomplish these tasks. The primary focus is on functions.<br>
+                The Hierarchical decomposition has been used to specify the task to be compleetd in order to solve a
+                problem.<br>
+                The high level language such as Cobol, FORTRAN, C etc. are commonly known as POP.
+            </p>
+
+
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Basics concept of Oops?</p>
+            </li>
+            <ol>
+                <li>Object</li>
+                <li>Class</li>
+                <li>Inheritence</li>
+                <li>Polymorphism</li>
+                <li>Abstraction</li>
+                <li>Encapsulation</li>
+
+            </ol>
+            <strong class="bg-dark text-white">Inheritance:</strong>
+            <p>Inheritance in java is a concept where the properties of a one class is inherit by another class.<br>
+                1. Parent class(superclass/Base class)<br>
+                2. Child class(subclass/Derived classs)<br>
+                <strong>Types:</strong><br>
+                1. Single Inheritance: one parent & one Child class<br>
+                2. Multilevel Inheritance: class having more than one parent class but at different<br>
+                levels. parent>subclass>subclass..
+                3.Hierarchical Inheritance: When a class has more than one child classes.
+            </p>
+            <strong class="bg-dark text-white">Polymorphism:</strong>
+            <p>Polymorphism means one interface many Implementation.<br>
+                <strong>Types:</strong><br>
+
+                There are two types of Polymorphism:<br>
+                1. Runtime Polymorphism. (By Inheritance & Interface // Method overriding).<br>
+                2. Compiletime Polymorphism (Method Overloading).<br>
+            </p>
+
+            <strong class="bg-dark text-white">Abstraction:</strong>
+            <p>It basically deals with hinding the details and showing the essentials things to the customer.<br>
+                it can be achieved by two ways:<br>
+                A. Abstarct class<br>
+                B. Interface
+            </p>
+
+            <strong class="bg-dark text-white">Encapsulation:</strong>
+            <p>Encapsulation is a mechanism where you bind your data(variables) and code(methods)
+                together as a single unit.
+                We can achieve encapsulation in Java by:<br>
+                1. Declaring the variables of a class as private<br>
+                2. Providing public setter and getter methods to modify and view the values of the
+                variables.
+            </p>
+
+
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Method Overloading in Java</p>
+            </li>
+            <p>
+                Overloading allows different methods to have the same name, but different signatures where the signature can differ by the number of input parameters or type of input parameters or both.<br>                
+                So, If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+            </p>
+            
+            <p class="fw-bold">There are two ways to overload the method in java</p>
+            <ol>
+                <li>
+                    By changing number of arguments
+                </li>
+                <li>
+                    By changing the data type
+                </li>
+            </ol>
+            <p class="fw-bold"> 
+                Note: Method Overloading is not possible by changing the return type of method only.<br>
+                It will result an compile time error.
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Method Overriding in Java</p>
+            </li>
+            <p>
+                In any object-oriented programming language, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.<br>
+                If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+            </p>
+        
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Constructor in Java:</p>
+            </li>
+            
+            <p>Constructors are methods define inside a class which have the same name as the class & which are used to create an instant of a class.</p>
+            <ul>
+                <li>The method name muust excatly match the class name.</li>
+                <li>There must not be a return type declare for the method.</li>
+            </ul>
+            <p>
+                
+                A constructor in Java is a special method that is used to initialize class variables at the time of
+                object creation.
+            </p>
+            <p>If not initialize instance varibale then default value of</p>
+            <ol>
+                <li>string =null</li>
+                <li>boolean = false</li>
+                <li>long = 0</li>
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Constructor Overloading in Java :</p>
+            </li>
+            
+            <p>Constructor overloading can be defined as the concept of having more than one constructor with different parameters.</p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">What is Interface in Java?</p>
+            </li>
+            <p>
+                It is a collection of abstract methods and static constants.<br>
+                In an interface, each method is public and abstract but it
+                does not contain any constructor.<br> Thus, interface basically is a group of related methods
+                with empty bodies.
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">What is Abstract class in Java?</p>
+            </li>
+            <p>
+                A class which is declared as abstract is known as an abstract class. It can have abstract and
+                non-abstract methods. It needs to be extended and its method implemented. It cannot be instantiated.
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Difference between Abstract class & Interface in Java?</p>
+            </li>
+            <ol>
+                <li>Abstarct class can have non-abstarct method.<br>
+                    But in case of Interface all the methods are abstract.</li>
+                <li>
+                    In case of Abstract class, a class may extend only one Abstarct class.<br>
+                    But In case of Interface it may extend several interfaces.
+                </li>
+                <li>
+                    A abstarct class can have instance variable.<br>
+                    Interface cannot have any instance varable.
+                </li>
+                <li>
+                    Abstract class visibility may be public, private, & protected.<br>
+                    But in case of Interface, visibility must be public or none.
+                </li>
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Java Architechture | Internal Flow | Execution | JDK</p>
+            </li>
+            <p>A Java program requires a Java development kit (JDK) for library support and development tools. </p>
+            <img src="../../../assets/jvm1.png" class="img-fluid" alt="Responsive image">
+            <p>
+                <strong>Java compiler (javac.exe):</strong> A Java compiler is a program that converts source files into
+                the respective
+                byte code. The byte code is platform-independent.<br>
+
+                <strong>Java launcher (java.exe):</strong> Java launcher launches the Java application.
+            </p>
+            <p class="bg-secondary text-white h5"> Internal work of the Java program</p>
+            <img src="../../../assets/architecture.png" class="img-fluid" alt="Responsive image">
+            <p>
+                <strong>Source code:</strong> Program written in Java language<br>
+
+                <strong>Byte code:</strong> A .class file is generated after the Java code is compiled<br>
+
+                <strong>ClassLoader:</strong> Loads all the class files needed for execution<br>
+
+                <strong>Byte code verifier:</strong> Checks code for fragments for illegal code<br>
+
+                <strong>Interpreter:</strong> Converts byte code instruction to machine code<br>
+
+                <strong>Compiler:</strong> Compiles reusable byte code instructions to machine code<br>
+
+                <strong>Runtime:</strong> The overall execution of the program is assisted by Runtime.
+            </p>
+            <p class="bg-secondary text-white h5">Java program execution flow</p>
+            <ol>
+                <li>
+                    In Java, the program (source code) written by the programmer gets compiled and converted into byte
+                    code (compiled code) by the Java compiler.
+                </li>
+                <li>
+                    All the byte codes required for the program are then given to the interpreter. The interpreter reads
+                    the byte code line by line, converts it to binary form, also called as machine language or binary
+                    language, and then executes it.
+                </li>
+                <li>
+                    This process requires some support and an environment for the execution to happen. JDK (Java
+                    Development Kit) helps in this for execution of a Java program. It provides library support and Java
+                    Runtime Environment (JRE), the environment for developing and executing Java based applications and
+                    programs.
+                </li>
+            </ol>
+            <p class="bg-secondary text-white h5">JDK in details </p>
+            <p>
+                The development, compilation and execution of Java programs is taken care by JDK which contains 2 main
+                components: Development tools and JRE.
+            </p>
+            <strong>Development tools:</strong>
+            <ol>
+                <li>Java compiler(javac.exe)</li>
+                <li>Java Launcher(Java.exe)</li>
+            </ol>
+            <p>These two are required to develop java applications.</p>
+            <strong>JAVA Runtime Environment(JRE):</strong>
+            <ol>
+                <li>JVM + Java standard pakages and runtime libraries</li>
+            </ol>
+
+        </tr>
+        <!-- ---------------------------------------- -->
+
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Elaborate platform independent</p>
+            </li>
+            <p>If a program written on a particular platform can run on other platforms without any recompilation, it is
+                known as platform independence.
+
+                Since Java is platform-independent, any program written using Java on Windows will execute without any
+                recompilation on any other platform.
+
+                To see what platform independence actually is and how it matters, let us compare Java to a
+                platform-dependent language like C.
+
+            </p>
+            <img src="../../../assets/platform1.png" class="img-fluid" alt="Responsive image">
+
+            <p>Java is platform-independent whereas JVM is platform dependent. Let us see how Java code executes in
+                different platforms.</p>
+            <img src="../../../assets/platform2.png" class="img-fluid" alt="Responsive image">
+
+        </tr>
+        <!-- ---------------------------------------- -->
+
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Data Types :</p>
+            </li>
+            <ol>
+                <strong>Primitive Data type:</strong>
+                <li>
+                    Variables of primitive data types hold the value of the data item.
+                </li>
+                <strong>Non-Primitive Data Type:</strong>
+                <li>
+                    Variables of Non-Primitive data type hold the reference of the memory location where the data object
+                    is stored.<br>
+                    These are called as Reference data types.
+                </li>
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Explain Wrapper Class :</p>
+            </li>
+            <p>
+                The primitive data types in Java do not inherit the Object class.<br>
+                but sometimes, it is required to convert data types into objects in Java programming.<br>
+                To convert data types into objects
+                and to inherit the Object class<br>
+                Java has Boolean, Character, Integer, Long, Float and Double classes which are called as Wrapper Class.<br>
+                Wrapper classes help in representing the primitive data types as an object.
+                They form a wrapping around the primitive values to represent them as objects.
+                They belong to the java.lang package as part of the Java library.
+                Wherever, the data type is required as an object,
+                the objects of the Wrapper classes can be used.
+                Wrapper classes include methods to unwrap the object and give back the data type.
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Storage Occupied by datatypes:</p>
+            </li>
+            <ol>
+                <li>byte: 8 bit > 1byte</li>
+                <li>char: 16 bit > 2byte</li>
+                <li>short: 16 bit > 2byte</li>
+                <li>int : 32 bit > 4byte</li>
+                <li>float: 32 bit > 4byte</li>
+                <li>long: 64 bit > 8byte</li>
+                <li>double: 64 bit > 8byte</li>
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Operators in Java:</p>
+            </li>
+            <ol>
+                <li>Unary</li>
+                <li>Arithmetic </li>
+                <li>Relational </li>
+                <li>Logical</li>
+                <li>Ternary</li>
+                <li>Assignment</li>
+                <li>Bitwise</li>
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Data type compatibility :</p>
+            </li>
+            <ol>
+                <li>Implicit</li>
+                <li>Explicit </li>
+
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Reference variables in Java:</p>
+            </li>
+            <p>Variables referring to objects are called reference variables.<br>
+                Instance variables are automatically initialized to the default value of the data type during object
+                creation.</p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Pass by value in Java:</p>
+            </li>
+            <p>
+                Whenever a value of a primitive data type is passed, the values are copied from the actual parameters to
+                the formal parameters.<br> This kind of parameter passing is known as pass by value. <br>In pass by
+                value, both the actual and formal parameters point to different memory locations and the values are
+                copied in both the memory locations.
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Pass by Reference in Java:</p>
+            </li>
+            <p>
+                When an object is passed as a parameter, the formal and the actual parameters both refer to the same
+                object and hence the same memory location. <br>Therefore, the changes made inside the method to the
+                formal parameters are reflected in the actual parameters also. <br>This kind of parameter passing is
+                known as pass by reference.
+
+            </p>
+        </tr>
+        <!-- ---------------------------------------- -->
+        
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Memories | Stack | Heap :</p>
+            </li>
+            <p>The memory is logically divided into two primary sections - Stack and Heap.</p>
+            <p>All local variables and method invocations are stored in the stack.<br>
+
+                All objects along with their instance variables are stored in the heap
+            </p>
+            <strong>Memory allocation - Steps</strong>
+            <ol>
+                <li>
+                    The reference variable is created in the stack.
+                </li>
+                <li>The object is created in the heap.</li>
+                <li>The reference variable in the stack refers to the object in the heap.</li>
+            </ol>
+        </tr>
+        <!-- ---------------------------------------- -->
+        <tr>
+            <li>
+                <p class="bg-light text-primary h4">Garbage Collection:</p>
+            </li>
+            <p class="bg-secondary text-white h5">Memory Leak:</p>
+            <p>Sometimes, even though a resource in a program is unreachable or not in use, the memory used by that
+                resource is not deallocated. This is called Memory leak and is undesirable.<br>
+                When an object does not have any reference, it becomes eligible for garbage collection.
+            </p>
+            <p class="fw-bold">Case 1 - Objects eligible for garbage collection</p>
+            <p>
+                When the reference variable pointing to the object is initialized to null, the object will not have any
+                reference.
+            </p>
+            <p class="fw-bold">Case 2 - Objects eligible for garbage collection</p>
+            <p>
+                When the reference variable is initialized to a new object and there is no reference to the previous
+                object
+            </p>
+            <p class="fw-bold">Case 3 - Objects eligible for garbage collection</p>
+            <p>
+                When a reference variable is local to some method, it will be removed from the stack as soon as the
+                method finishes execution. The object pointed by the reference variable then becomes eligible for
+                garbage collection. </p>
+
+
+        </tr>
+        <!-- ---------------------------------------- -->
+
+
+
+
+
+    </table>
+</div>

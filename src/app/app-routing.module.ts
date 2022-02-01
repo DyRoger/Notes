@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { JavaComponent } from './mymodules/java/java.component';
 
 const routes: Routes = [
-  { path: 'java', component: JavaComponent }
+  { path: 'java', component: JavaComponent },
+  {path: '', redirectTo: '/', pathMatch: 'full'}
 ];
 
 @NgModule({
